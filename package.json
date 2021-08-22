@@ -6,7 +6,8 @@
   "scripts": {
     "pretest": "eslint --ignore-path .eslintignore .",
     "test": "mocha test",
-    "dist": "webpack"
+    "dist": "webpack",
+    "API3": "node script.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
   },
   "homepage": "https://github.com/ConsenSys/abi-decoder#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "web3": "^1.5.2",
     "web3-eth-abi": "^1.2.1",
     "web3-utils": "^1.2.1"
   },
